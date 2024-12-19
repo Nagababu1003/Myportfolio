@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "build" }
+      "use": "@vercel/node",
     }
   ],
   "routes": [
@@ -25,6 +24,5 @@
       "destination":"/new-path",
       "permanent":true
     }
-  ],
-  
+  ], 
 }
