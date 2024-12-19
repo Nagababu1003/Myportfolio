@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "index.js",
       "use": "@vercel/static-build",
       "config": { "distDir": "build" }
     }
@@ -10,7 +10,21 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/index.js"
     }
-  ]
+  ],
+  "rewrites":[
+    {
+      "source": "/custom-path",
+      "destination":"/index.js"
+    }
+  ],
+  "redirects":[
+    {
+      "source": "/old-path",
+      "destination":"/new-path",
+      "permanent":true
+    }
+  ],
+  
 }
