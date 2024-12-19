@@ -14,6 +14,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "scripts": {
+  "build": "npm run build" 
+  },
+  "engines": {
+  "node": "16.x", // Adjust to the version you're using
+  "npm": "7.x"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
