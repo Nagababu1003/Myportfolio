@@ -1,0 +1,11 @@
+.option3{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+}
+
+#Skills{
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}

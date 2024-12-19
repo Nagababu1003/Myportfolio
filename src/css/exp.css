@@ -1,0 +1,39 @@
+.expert{
+    height: 250px;
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1;
+    background-color: white;
+}
+
+.expert:hover{
+    box-shadow: 0px 0px 10px aqua;
+    border: 5px solid aqua;
+}
+
+.cour{
+    font-size: 30px;
+    color: #df1010;
+}
+.insti{
+    font-size: 15px;
+    color: blue;
+}
+.dura{
+    font-size: 20px;
+    color: green;
+}
+.intern{
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+.exp{
+    display: inline-flex;
+    margin: 30px;
+    margin-left: 150px;
+}
